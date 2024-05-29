@@ -1,0 +1,163 @@
+﻿{
+  "Scenario": "Forecasting",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "C:\\Users\\aaron\\Desktop\\thesis\\toywarehouse\\warehouse_orders.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Date",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Orders",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 13.187474322534424,
+        "RuntimeInSeconds": 0.049,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 11,
+            "SeriesLength": 30,
+            "TrainSize": 6000,
+            "Horizon": 10,
+            "OutputColumnName": "Orders",
+            "InputColumnName": "Orders",
+            "ConfidenceLowerBoundColumn": "Orders_LB",
+            "ConfidenceUpperBoundColumn": "Orders_UB"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 13.187474322534424,
+        "RuntimeInSeconds": 0.049,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 11,
+            "SeriesLength": 34,
+            "TrainSize": 6000,
+            "Horizon": 10,
+            "OutputColumnName": "Orders",
+            "InputColumnName": "Orders",
+            "ConfidenceLowerBoundColumn": "Orders_LB",
+            "ConfidenceUpperBoundColumn": "Orders_UB"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 13.187474322534424,
+        "RuntimeInSeconds": 0.049,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 11,
+            "SeriesLength": 1491,
+            "TrainSize": 6000,
+            "Horizon": 10,
+            "OutputColumnName": "Orders",
+            "InputColumnName": "Orders",
+            "ConfidenceLowerBoundColumn": "Orders_LB",
+            "ConfidenceUpperBoundColumn": "Orders_UB"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 13.187474322534424,
+        "RuntimeInSeconds": 0.049,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 11,
+            "SeriesLength": 1501,
+            "TrainSize": 6000,
+            "Horizon": 10,
+            "OutputColumnName": "Orders",
+            "InputColumnName": "Orders",
+            "ConfidenceLowerBoundColumn": "Orders_LB",
+            "ConfidenceUpperBoundColumn": "Orders_UB"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 13.200329371653206,
+        "RuntimeInSeconds": 0.051,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 12,
+            "SeriesLength": 1506,
+            "TrainSize": 6000,
+            "Horizon": 10,
+            "OutputColumnName": "Orders",
+            "InputColumnName": "Orders",
+            "ConfidenceLowerBoundColumn": "Orders_LB",
+            "ConfidenceUpperBoundColumn": "Orders_UB"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "ForecastBySsa"
+    },
+    "Schema": "e0",
+    "MetricName": "RMSE",
+    "ModelFilePath": "C:\\Users\\aaron\\Desktop\\thesis\\produc\\productprediction\\productprediction\\prediction.1.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 4,
+  "TrainingOption": {
+    "Version": 2,
+    "Type": "ForecastingTrainingOption",
+    "TrainingTime": 50,
+    "UseCrossValidation": false,
+    "OptimizeMetric": "RMSE",
+    "Horizon": 10,
+    "TimeColumn": "Date",
+    "LabelColumn": "Orders",
+    "UseDefaultIndex": false,
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "CrossValidationValidationOption",
+      "NumberOfFolds": 5
+    }
+  }
+}

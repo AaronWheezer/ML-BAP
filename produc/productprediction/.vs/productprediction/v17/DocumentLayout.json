@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aaron\\Desktop\\thesis\\produc\\productprediction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0984876F-9B04-4000-AB83-FB8454ACE199}|productprediction\\productprediction.csproj|c:\\users\\aaron\\desktop\\thesis\\produc\\productprediction\\productprediction\\orderprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0984876F-9B04-4000-AB83-FB8454ACE199}|productprediction\\productprediction.csproj|solutionrelative:productprediction\\orderprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0984876F-9B04-4000-AB83-FB8454ACE199}|productprediction\\productprediction.csproj|c:\\users\\aaron\\desktop\\thesis\\produc\\productprediction\\productprediction\\orders.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0984876F-9B04-4000-AB83-FB8454ACE199}|productprediction\\productprediction.csproj|solutionrelative:productprediction\\orders.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "orders.csv",
+              "DocumentMoniker": "C:\\Users\\aaron\\Desktop\\thesis\\produc\\productprediction\\productprediction\\orders.csv",
+              "RelativeDocumentMoniker": "productprediction\\orders.csv",
+              "ToolTip": "C:\\Users\\aaron\\Desktop\\thesis\\produc\\productprediction\\productprediction\\orders.csv",
+              "RelativeToolTip": "productprediction\\orders.csv",
+              "ViewState": "AQIAAFkXAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-05-16T16:11:53.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderPrediction.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Desktop\\thesis\\produc\\productprediction\\productprediction\\OrderPrediction.cs",
+              "RelativeDocumentMoniker": "productprediction\\OrderPrediction.cs",
+              "ToolTip": "C:\\Users\\aaron\\Desktop\\thesis\\produc\\productprediction\\productprediction\\OrderPrediction.cs",
+              "RelativeToolTip": "productprediction\\OrderPrediction.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA5wCEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:11:29.488Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+﻿{
+  "Scenario": "Regression",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "C:\\Users\\aaron\\Desktop\\thesis\\toywarehouse\\warehouse_orders.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Date",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Orders",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestRegression",
+        "Score": 0.61833496185833225,
+        "RuntimeInSeconds": 0.421,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e3",
+          "e0": {
+            "InputColumnName": "Date",
+            "OutputColumnName": "Date"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Date"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "NumberOfTrees": 10,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e2": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e6": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestRegression",
+        "Score": 0.61750314394897909,
+        "RuntimeInSeconds": 0.374,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e3",
+          "e0": {
+            "InputColumnName": "Date",
+            "OutputColumnName": "Date"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Date"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "NumberOfTrees": 7,
+            "NumberOfLeaves": 56,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e2": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e6": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestRegression",
+        "Score": 0.61721756779543568,
+        "RuntimeInSeconds": 1.306,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e3",
+          "e0": {
+            "InputColumnName": "Date",
+            "OutputColumnName": "Date"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Date"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "NumberOfTrees": 110,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e2": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e6": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestRegression",
+        "Score": 0.61454691906246617,
+        "RuntimeInSeconds": 0.439,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e3",
+          "e0": {
+            "InputColumnName": "Date",
+            "OutputColumnName": "Date"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Date"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "NumberOfTrees": 13,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 0.950639844,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e2": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e6": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmRegression",
+        "Score": 0.61259563047360754,
+        "RuntimeInSeconds": 1.183,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e4",
+          "e0": {
+            "InputColumnName": "Date",
+            "OutputColumnName": "Date"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Date"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e4": {
+            "NumberOfLeaves": 85,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 0.99999977667298645,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 0.99999977667298645,
+            "MaximumBinCountPerFeature": 474,
+            "FeatureFraction": 0.96145971111680861,
+            "L1Regularization": 5.9087150350038135E-10,
+            "L2Regularization": 0.39456694658435515,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e2": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e3": {
+            "NumberOfTrees": 4,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          },
+          "e6": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "Orders",
+            "FeatureColumnName": "Features"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "FeaturizeText",
+      "e1": "Concatenate",
+      "e2": "FastTreeRegression",
+      "e3": "FastForestRegression",
+      "e4": "LightGbmRegression",
+      "e5": "LbfgsPoissonRegressionRegression",
+      "e6": "SdcaRegression"
+    },
+    "Schema": "e0 * e1 * (e2 + e3 + e4 + e5 + e6)",
+    "MetricName": "RSquared",
+    "ModelFilePath": "C:\\Users\\aaron\\Desktop\\thesis\\produc\\productprediction\\productprediction\\prediction.1.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 4,
+  "TrainingOption": {
+    "Version": 1,
+    "Type": "RegressionTrainingOption",
+    "TrainingTime": 10,
+    "LabelColumn": "Orders",
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "CrossValidationValidationOption",
+      "NumberOfFolds": 5
+    }
+  }
+}

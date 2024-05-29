@@ -1,0 +1,209 @@
+ander bedrijen zoals smartwms.ai hebben al ML in hun systeem zitten. -> AI/ML-powered WMS solutions optimize labor, resource planning, and task prioritization, boosting productivity, cutting costs, and enhancing efficiency.
+
+toevoeging op mijn ML: alles van items checken om de x van tijd en om dingen her in te richten bij nieuwe leveringen : zodat altijd optimaal is
+
+veel competitie van WMS systemen die dit al hebben.
+
+ source: https://www.linkedin.com/pulse/how-ai-transforms-wms-warehousing-giovanni-sisinna-dh0tf/
+
+AI in WMS -> operational efficiency, predictive analytics, and resilience.
+
+empower WMS with capabilities to predict future demands, optimize warehouse operations in real-time, and provide strategic insights that were previously unattainable.
+
+--------  By analyzing vast datasets, AI algorithms can forecast inventory needs, identify patterns in order fulfillment, and recommend optimal stock levels, thereby minimizing waste and reducing costs
+
+risk van ai => factoren buiten wharehouse kan die geen rekening me houden / stock van bedrijven, camion levertijd , weer alles buiten  -> te late leveringen etc,  AI integration complements human labor by taking over repetitive, mundane tasks, thereby allowing employees to focus on more complex and creative work.  Dependence on Technology: Over-reliance on AI
+For example, AI can handle repetitive or hazardous tasks, while humans manage quality control and critical decision-making processes.
+
+AI implementatie en research = kostelijk vooral voor kleine n middle grote ondernemingen
+
+Resistance to Change: Employees may resist retraining due to fear of the unknown or discomfort with technology. Addressing this requires transparent communication about the benefits of upskilling, including job security and career advancement opportunities.
+-------------------------------------------------------------------------------------------------------
+https://www.theseus.fi/bitstream/handle/10024/344506/The%20Role%20of%20Artificial%20Intelligence%20in%20Supply%20Chain%20Management.pdf?sequence=2
+writer : Shamas Pervaiz
+
+from conclusion: p38-39
+The aim of the thesis was to examine the influence of AI in the modern world, particularly in
+the field of supply chain management. This thesis was also aimed to identify how AI can be
+applied in supply chain management. The qualitative research method (document analysis) was
+used for the research.
+
+AI can streamline every aspect from demand to inventory to supply with minimal human
+involvement. It is also effective in precision planning which will make the supply chain
+management processes reliable. The role of AI is admirable in logistics, as it is making the
+transport faster than before
+
+example :
+Amazon is at zenith position nowadays due to the use of artificial intelligence
+in the system. The automation of warehouses is the key to the success for the effectiveness of
+supply chain management
+
+RESULTS OF THE STUDY- ARTIFICIAL INTELLIGENCE IN
+SUPPLY CHAIN MANAGEMENT 
+p28-38
+
+
+https://www.sccgltd.com/wp-content/uploads/2018/05/uses-of-artificial-intelligence-within-supply-chain.png
+https://carlwheezer.be/1zu3jbdp.png
+-------------------------------------------------------------------------------------------------------
+https://www.diva-portal.org/smash/get/diva2:1582500/FULLTEXT01.pdf By Anton Tynong 
+
+The time spent in each order-picking activity can be broken down to: Traveling (55%), Searching (15%),
+Extracting (10%) and Paperwork or other activities (20%). Order-picking as a whole process is the
+largest contributing task to the total warehouse operating costs and accounts for about 55% of the
+expenses. -> most time on traveling -> most work is done on the unproductive time of traveling
+
+space , people , equipment
+
+ML models learn and improve with expiereince from data called modeltraning to predict outcomes based upon the historical data.
+ML-techniques have been proven to achieve a higher degree of accuracy better automation possibility and that they require less human effort (SSI Schaefer 2028; Shahrabi et al. 2009)
+
+wat ik doe supervised learning -> algoritms wich need external assistance using lablled data and relate input data to the target output data.
+(classifcation) adhv decision tree
+later ook - > Deep learning -> little human interaction -> advanced computing -> bigger data sets best
+
+later virtual envirement , bestellingen laten toe komen wms zelf adhv unsupervised learning, stock etc laten bepalen 
+
+Makkar et al. (2020) describe that ML-methods are currently in use in, for
+example, Demand and sales forecasting, personalized product recommendations, prize and
+promotion recommendations, inventory optimization, warehouse throughput optimization,
+consumer insights, shop-floor yield optimization, predictive maintenance, procurement, best routing
+options and warehouse automation
+
+
+Amazon -> stapje verder AI; robots in warehouse
+
+Verschillende pakketen? zodat ROI groter word
+-----------------------------------------------------
+
+src = https://www.scirp.org/pdf/jssm_2023022714034494.pdf
+
+AI is having a great impact on supply chain management. Supply chain management logistics firms can benefit from AI’s ability to monitor freight forwarding on a massive scale and anticipate shipping need
+
+McKinsey estimates that logistics expenses for businesses that have adopted AI-enabled
+supply-chain management have decreased by 15%, while inventory levels have
+increased by 35%, and service levels have increased by 65%. These are preliminary findings, and it’s possible that AI’s true promise in the supply chain lies in
+narrower, more predictive outputs (Camargo et al., 2020).
+
+
+
+
+
+----------------------------------------------------
+src = https://aaltodoc.aalto.fi/server/api/core/bitstreams/0d139a6f-0779-4db8-9398-8a2a992f9dd4/content
+
+The automated warehouse management system, combined with artificial intelligence
+that can learn from previous data and results, supervised learning, could very well lead
+to optimized collecting and storing. In order to optimize the whole collecting phase, the
+following stages of collecting need to be optimized (Broulias et al. 2005):
+1. Travel time to the collecting space
+2. Search time for the correct product
+3. The actual collecting time of the products
+4. The time it takes to transport the order to the shipping area
+
+-----------------------
+
+https://supplychainmanagement.quora.com/How-is-Machine-Learning-being-used-in-Warehouse-Management-Systems-WMS-Machine-learning-applications-are-Self-m
+
+https://thisiszone.medium.com/teaching-a-net-developer-new-tricks-machine-learning-with-ml-net-e0da6ecb467a
+
+-----------------------
+AI in the warehouse generates value through sub-technologies such as machine learning, natural language processing, robotics, and computer vision. Machine learning algorithms enable practical decision-making, optimizing inventory positioning, and recommending faster replenishment. Natural language processing enables voice-picking, while computer vision allows for automated barcode recognition and product tracking. Robotics gives AI a physical presence, enabling tasks like pallet loading, cargo movement, and picking operations.
+Here are eight ways AI is transforming warehouse management:
+Productivity: Machine learning optimizes pick-and-pack processes, integrating system-directed solutions and improving efficiency.
+Communication: AI-powered automated systems facilitate faster and more accurate communication between different elements of the warehouse system.
+Wages: While initial technological investment is required, AI has the potential to reduce labor costs as automation increases.
+Warehouse Logistics: AI optimizes logistics by reducing operator errors, improving processing times, and fine-tuning material handling.
+Robots: ML algorithms guide robots in efficient picking, slotting, packaging, and redistribution of goods, enhancing speed and accuracy.
+Visibility: Combining AI, advanced analytics, IoT sensors, and real-time monitoring provides end-to-end visibility across supply chains.
+Data: Machine learning unlocks insights from supply chain data, improving collaboration, logistics, and warehouse management.
+Inventory: AI-powered solutions such as RFID enable precise and accurate inventory control, optimizing resource allocation.
+
+Adopting AI in warehouses brings benefits such as improved communication, increased productivity, better data analysis, a safer workplace, simplified inventory management, cost savings, and effective contingency planning.
+
+source : https://www.linkedin.com/pulse/unlocking-warehouse-tomorrow-how-ai/
+
+
+--------------------------------------------------------
+
+Increased demand for essential products and accelerating online sales during the pandemic drove businesses to adopt AI-based warehouse management solutions to automate and manage their inventory flawlessly and efficiently. 
+ Implementing AI can transform warehouse management from relying on human labor to a better, automated, and technology-centric process. This transformation is known as "Warehouse Automation."
+
+Artificial Intelligence can help warehouses automate all their processes, including inventory management and workforce planning. For example, AI-powered warehouse automated tools can eliminate all the flaws relating to unloading pallets, product picking, packing items, and shipping. Besides saving operating costs, AI-based warehouse management systems can enable data-based decision-making that helps reduce wastage and increase the entire organization's profitability.
+
+
+Fulfill Orders Quickly
+As soon as you receive the order, the warehouse system with AI capabilities can easily locate the items making it easy for the employees to pick, pack, and ship ultimately leading to quick order fulfillments.
+
+Personalize Communications
+AI-enabled warehouse systems learn from the past interactions, and are capable of establishing automated personalized communication channels for the customers, suppliers, employees, etc. and speed up the processes.
+
+Optimize Inventory Storage Space
+After the products are sold, the AI-enabled warehouse management system can automatically detect the vacant storage space helping employees to make the optimum use of the warehouse based on different criteria like inventory volume and their shelf life.
+
+Forecast Customer Demand
+AI-enabled warehouse management systems are known for their forecasting capabilities and real-time information availability. You have all the information regarding sales, returns, and supplies available on the fingertips allowing you to make smarter decisions.
+
+
+You might have heard a lot about how AI is transforming many industries in the form of self-driving cars, image and voice recognition, fraud detection, real-time product recommendations, and many more. But, how do warehouses benefit from AI systems? :
+
+An AI-based warehouse management system enables warehouses to automate inventory management, and manage supply chain operations starting from manufacturing, purchasing, distribution, sales to order fulfillment. Additionally, it helps in optimizing storage spaces, and  usage of inventory and resources ensuring minimized wastage and maximized productivity. It takes away all the human efforts required to complete routine tasks like billing, invoicing, emailing, scheduling, etc. streamlining the warehouse operations and taking the efficiency to the next level. 
+
+In eCommerce, when there is a surge in online sales, managing warehouse inventory scattered around the globe becomes challenging. In that case, AI-powered warehouse management software is a centralized platform that provides real-time information about the inventory stored in multiple facilities regardless of their geographical locations. Not only that, it also helps in analyzing and forecasting sales that helps warehouse management to purchase and store in a smart way avoiding financial losses caused due to inventory wastage.
+
+Managing Performance
+AI can automate the data collection process, and it also can learn from past experiences. Taking that into consideration, AI-based warehouse management systems can help you analyze the performance of your employees intricately and allow you to come up with decisions and strategies that benefit your business in terms of productivity and revenue generation.
+
+Categorizing Products
+AI-based warehouse management systems can eliminate the manual efforts required to categorize products. On the contrary, it can help automate the categorization of the products based on their characteristics, demand, price, and many other criteria. Also, the AI-based warehouse management system can transform the strategies of categorization of the products with the changing situations based on past learnings and analyzed data.
+
+Analyzing Product Demand
+As real-time data analysis capabilities drive an AI-based warehouse management system, it can help forecast demand accurately and quickly respond to the market demand changes and inventory needs. AI helps you easily predict the future product demands and patterns to simplify the flow and storage of materials enabling profitable returns and outputs for your business.
+
+Mitigating Risks
+AI-powered warehouse management systems can help you prioritize tasks that enable resolving bottlenecks and meet the expectations of your customers, suppliers, and stakeholders. This ability to prioritize promptly can help mitigate risks that can prove to be expensive in the long run. On the other hand, the AI-based warehouse management system can help determine flaws in the process and address them on time.
+
+Sending Alerts & Notifications
+As soon as a particular product is out of stock, there is a delay in delivery, or any other unforeseen condition has arisen, the AI-based warehouse management software can send urgent alerts and notifications to your smartphone. This helps you to take proactive steps to eliminate errors and satisfy your customers.
+
+https://assets.goodfirms.co/images/ai-adoption.jpg
+https://assets.goodfirms.co/images/ai-concepts.jpg
+https://assets.goodfirms.co/images/ai-benefits.jpg
+Top 10 Competitive Advantages of Using an AI-Based Warehouse Management System
+Updated on :October 16, 2023
+By :Jemimah Rodriguez
+https://www.goodfirms.co/warehouse-management-software/blog/top-competitive-advantages-of-using-an-ai-based-warehouse-management-system
+
+https://www.databridgemarketresearch.com/reports/global-artificial-intelligence-in-supply-chain-market
+----------------
+
+Het lijkt erop dat je een literatuurstudie hebt uitgevoerd als onderdeel van je bachelor thesis. Een literatuurstudie is een onderzoeksmethode waarbij je bestaande literatuur, zoals wetenschappelijke artikelen, boeken en andere bronnen, verzamelt, analyseert en samenbrengt om een ​​dieper begrip van een bepaald onderwerp te krijgen. Door het lezen en synthetiseren van het werk van andere onderzoekers, kun je patronen, trends, hiaten in kennis en nieuwe inzichten identificeren die relevant zijn voor jouw onderzoeksvraag of -doel. Het is een waardevolle methode om een solide basis te leggen voor je eigen onderzoek en om te laten zien hoe jouw werk past binnen het bredere onderzoeksdomein.
+
+"literatuurgebaseerde thesis" of "literatuurreview thesis" genoemd.
+-------------
+klad :
+
+
+doet C&w picking routes?
+c&w heeft al voice ai voo de WMS
+
+c&w Digital twin ?
+-> By employing AI to analyze and map the routes taken by experienced warehouse workers, Werner Electric was able to optimize pick paths and establish performance markers. This optimization not only expedited order fulfillment but also significantly reduced the onboarding time for new employees from months to as little as two weeks.
+
+
+https://learn.microsoft.com/en-us/dotnet/machine-learning/tutorials/time-series-demand-forecasting
+Ontwikkel een ML.NET-model voor voorspellend onderhoud in een WMS-systeem.
+Ontwikkel een ML.NET-model voor optimalisatie van voorraadbeheer in een WMS-systeem.
+Ontwikkel een ML.NET-model voor dynamische taaktoewijzing in een WMS-systeem.
+Evalueer de prestaties van ML.NET-modellen in WMS-simulaties.
+Analyseer de impact van ML.NET op de operationele efficiëntie, voorraadbeheer en besluitvormingsprocessen in WMS-systemen.
+
+
+https://faker.readthedocs.io/en/master/
+
+https://paperswithcode.com/task/synthetic-data-generation
+https://www.kaggle.com/datasets
+
+https://www.kaggle.com/code/phuvd1609/walmart-sales-forecasting#Model-According-to-Feature-Importance
+https://www.kaggle.com/code/yinn94/demand-analysis-by-hmm/input
+https://www.kaggle.com/code/imsanjoykb/forecast-order-demand-and-visualization

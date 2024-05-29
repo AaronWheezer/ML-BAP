@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ML_BAP_API.props" />
+</Project>

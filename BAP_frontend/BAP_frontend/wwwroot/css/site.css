@@ -1,0 +1,77 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+h1 {
+    color: #007bff; /* Light blue color */
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Light blue color */
+    color: #fff; /* White color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}

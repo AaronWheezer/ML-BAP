@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BAP_frontend.props" />
+</Project>

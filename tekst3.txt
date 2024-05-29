@@ -1,0 +1,23 @@
+**1.1 Algemeen:**
+Deze bachelorproef onderzoekt de rol van AI en machine learning (ML) in warehouse management systemen (WMS). De focus ligt op het optimaliseren van warehouse-operaties om de efficiëntie te verhogen en kosten te verlagen. Dit onderzoek is uitgevoerd tijdens een stage bij C&W, een WMS-bedrijf, waarbij de verzamelde informatie en inzichten worden gebruikt om de impact van AI/ML in het werkveld te begrijpen.
+
+**1.2 Probleemstelling:**
+Het specifieke probleem dat wordt aangepakt, is de behoefte aan verbeterde operationele efficiëntie en kostenverlaging in warehouses. Traditionele WMS-systemen hebben beperkingen in het voorspellen van vraag, optimaliseren van voorraadniveaus en efficiënt gebruik van resources, wat resulteert in suboptimale prestaties.
+
+**1.3 Onderzoeksvraag:**
+De onderzoeksvraag luidt: "Hoe kunnen AI en machine learning worden toegepast in warehouse management systemen om operationele efficiëntie te verbeteren, kosten te verlagen en de algehele prestaties van warehouses te optimaliseren?"
+
+**1.4 Experiment:**
+Het onderzoek maakt gebruik van een kwalitatieve onderzoeksmethode, waarbij documentanalyse wordt toegepast om inzichten te verkrijgen uit bestaande literatuur en praktijkvoorbeelden. De datacollectie omvatte een uitgebreide analyse van wetenschappelijke artikelen, whitepapers en praktijkcases van bedrijven die AI/ML in hun WMS hebben geïntegreerd. De analyse omvatte ook de bespreking van verschillende ML-technieken en hun toepassingen in warehouse-optimalisatie. De resultaten van het onderzoek bieden een kritische analyse van de effectiviteit en uitdagingen van AI/ML-implementaties in WMS.
+
+**2. Experiment:**
+Het onderzoek beschrijft de evolutie van AI en ML in WMS, waarbij verschillende aspecten worden behandeld, waaronder:
+- De werkwijze van AI en ML in warehouse management systemen.
+- Gemotiveerde keuzes van AI-technologieën en ML-algoritmen voor warehouse-optimalisatie.
+- Resultaten van de analyse van AI/ML-implementaties in WMS, inclusief hun impact op operationele efficiëntie, kostenverlaging en prestatieverbetering.
+- Een kritische analyse van de resultaten, inclusief de bespreking van uitdagingen en beperkingen van AI/ML in WMS.
+
+Het rapport bevat visualisaties, grafieken en citaten uit literatuur en praktijkvoorbeelden om de bevindingen te ondersteunen en te illustreren.
+
+**3. Conclusie:**
+De conclusie van het onderzoek bevestigt de effectiviteit van AI en ML in het optimaliseren van warehouse management systemen. Door AI/ML te integreren, kunnen warehouses operationele efficiëntie verbeteren, kosten verlagen en de algehele prestaties optimaliseren. De uitdagingen, zoals weerstand tegen verandering en afhankelijkheid van technologie, moeten echter worden aangepakt om de succesvolle implementatie van AI/ML te waarborgen.
