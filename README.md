@@ -37,6 +37,25 @@ Deze applicatie voorspelt hoeveel orders er op een bepaalde dag in de toekomst z
 
 Ook hier kunnen betere voorspellingen worden gemaakt door meer relevante data te gebruiken die van invloed is op het aantal orders op een bepaalde dag.
 
+
+## Hoe de voorbeelden te gebruiken
+
+### WMS Location Prediction
+
+Deze voorbeeldapplicatie heeft een frontend en backend:
+
+- **Frontend**: De frontend code bevindt zich in de map `BAP_frontend`.
+- **Backend**: De backend code bevindt zich in de map `ML.BAP`.
+
+Om de WMS Location Prediction applicatie te draaien, moet je het volgende project in de backend map uitvoeren:
+- `ML_BAP_API`
+
+### WMS Order Prediction
+
+Deze voorbeeldapplicatie heeft alleen console output:
+
+- Om de WMS Order Prediction applicatie te draaien, navigeer naar de map `productprediction` en voer het bestand `Program.cs` uit.
+
 ## Hoe maak je je eigen ML.NET predictie
 
 ### 1. **Installeer ML.NET**: Zorg ervoor dat je de ML.NET bibliotheek hebt geïnstalleerd. Dit kun je doen via NuGet Package Manager in Visual Studio of via de .NET CLI:
