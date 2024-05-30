@@ -1,0 +1,60 @@
+dqs
+
+Inleiding
+Machine learning (ML) is een tak van kunstmatige intelligentie (AI) die zich richt op het ontwikkelen van algoritmen die patronen in data kunnen herkennen en op basis daarvan voorspellingen kunnen doen. ML heeft de potentie om diverse sectoren te transformeren door het automatiseren van beslissingsprocessen en het optimaliseren van operationele efficiëntie. Een Warehouse Management System (WMS) is een softwaretoepassing die magazijnactiviteiten ondersteunt, zoals voorraadbeheer, orderpicking en locatietoewijzing. De integratie van ML in een WMS kan leiden tot aanzienlijke verbeteringen in de operationele efficiëntie en besluitvorming.
+
+Bachelorproef: Integratie van ML.NET in een WMS
+In deze bachelorproef hebben we onderzocht hoe ML.NET, een machine learning framework ontwikkeld door Microsoft, kan worden geïntegreerd in een WMS om voorraadbeheer en magazijnindeling te optimaliseren. Het experiment bestond uit twee hoofdcomponenten: de ontwikkeling van een dynamisch locatietoewijzingssysteem voor pallets en een Product Voorraad Predictor.
+
+Literatuuronderzoek en Case Studies
+We begonnen met een grondige analyse van bestaande case studies en wetenschappelijke literatuur over de integratie van AI en ML in WMS-systemen. Dit onderzoek gaf ons inzicht in de huidige best practices en leidde tot geïnformeerde keuzes over de te gebruiken methodologieën en technologieën.
+
+Werkwijze
+Onze aanpak was iteratief en bestond uit verschillende fasen. We begonnen met een grondige analyse van bestaande literatuur en case studies over de integratie van AI en ML in WMS-systemen. Deze analyse gaf ons inzicht in de huidige best practices en technologische mogelijkheden.
+
+Data Verzameling en Preprocessing: We verzamelden relevante datasets van een bedrijf, waaronder historische verkoopgegevens, seizoensgebonden trends en productkenmerken. Deze data werd zorgvuldig opgeschoond en genormaliseerd om ervoor te zorgen dat de modellen met consistente en nauwkeurige gegevens werden getraind. Belangrijke kenmerken zoals gewicht en afmetingen voor WMS en seizoensgebonden patronen voor de voorraadvoorspelling werden geïdentificeerd.
+
+Modelselectie en Ontwikkeling: Binnen ML.NET evalueerden we verschillende machine learning modellen, waaronder neurale netwerken, decision trees en regressiealgoritmen. Voor de WMS-functionaliteit ontwikkelden we een dynamisch locatietoewijzingssysteem dat gebruik maakt van decision trees en neurale netwerken. Voor de Product Voorraad Predictor gebruikten we regressiealgoritmen en LSTM-netwerken om nauwkeurige tijdreeksvoorspellingen te genereren.
+
+Implementatie en Integratie: De geselecteerde modellen werden geïntegreerd in het WMS-systeem om real-time beslissingen te nemen over de plaatsing van inkomende pallets en om voorraadvoorspellingen te genereren. We ontwikkelden een gebruiksvriendelijke interface die gebruikers in staat stelt om gemakkelijk toegang te krijgen tot ML-gestuurde beslissingen en aanbevelingen. De Product Voorraad Predictor werd als een afzonderlijke module geïntegreerd met het bestaande WMS om real-time voorraadniveaus en voorspellingen weer te geven.
+
+Gemotiveerde Keuzes
+ML.NET: We kozen voor ML.NET vanwege de naadloze integratie met het .NET-ecosysteem en de krachtige functionaliteiten die het biedt voor machine learning-taken. Deze keuze stelde ons in staat om efficiënt gebruik te maken van bestaande infrastructuren en kennis binnen het bedrijf.
+
+Gebruikte Bedrijfsgegevens: Door gebruik te maken van echte bedrijfsgegevens konden we modellen trainen die specifiek waren afgestemd op de behoeften en patronen van het bedrijf. Dit resulteerde in nauwkeurigere en betrouwbaardere voorspellingen.
+++++++++++++++++++++++++++++++++++++++++++++++
+
+Voor dit experiment hebben we een iteratieve aanpak gehanteerd, waarbij we verschillende fasen doorliepen om ML.NET te integreren in een op maat gemaakt Warehouse Management System (WMS) en een Product Voorraad Predictor te ontwikkelen. De belangrijkste stappen omvatten:
+1.	Literatuuronderzoek en Case Studies:
+•	Grondige analyse van bestaande case studies en wetenschappelijke literatuur over de integratie van AI en ML in WMS-systemen, evenals de ontwikkeling van voorraadvoorspellingsmodellen.
+2.	Data Verzameling en Preprocessing:
+•	Verzameling van relevante gegevenssets van een bedrijf om een Product Voorraad Predictor te trainen. Dit omvatte informatie over historische verkoopgegevens, seizoensgebonden trends, productkenmerken en andere relevante factoren.
+•	Preprocessing van de verzamelde gegevens, inclusief het opschonen van onjuiste of ontbrekende waarden, normalisatie en het identificeren van belangrijke kenmerken.
+3.	Modelselectie en Ontwikkeling:
+•	Evaluatie van verschillende ML-modellen binnen ML.NET voor zowel het WMS als de Product Voorraad Predictor, zoals neurale netwerken, decision trees en regressiealgoritmen.
+•	Ontwikkeling van aangepaste modellen en algoritmen voor specifieke taken, zoals dynamische locatietoewijzing van producten in het WMS en tijdreeksvoorspellingsmodellen voor de Product Voorraad Predictor.
+4.	Implementatie en Integratie:
+•	Integratie van ML.NET-functionaliteiten in het WMS-systeem, waaronder voorraadoptimalisatie en magazijnindelingsoptimalisatie .
+  (een pallet komt binnen en word automatisch door ML op de juist plek geplaatst/ toont de verwijzing, naar waar die moet komen)
+•	Ontwikkeling van een gebruiksvriendelijke interface voor het WMS, waardoor gebruikers gemakkelijk toegang hebben tot ML-gestuurde beslissingen en aanbevelingen.
+•	Implementatie van de Product Voorraad Predictor als een afzonderlijke module, geïntegreerd met het bestaande WMS om real-time voorraadniveaus en voorspellingen weer te geven.
+ 
+Gemotiveerde Keuzes:
+•	ML.NET: We kozen voor ML.NET vanwege zijn naadloze integratie met het .NET-ecosysteem en de krachtige functionaliteiten die het biedt voor machine learning-taken.
+•	Gebruik van Bedrijfsgegevens:
+•	// het geprobeerrd met data van Keggel.
+ Het gebruik van echte bedrijfsgegevens voor de Product Voorraad Predictor stelde ons in staat om modellen te trainen die specifiek waren afgestemd op de behoeften en patronen van het bedrijf, waardoor nauwkeurigere voorspellingen mogelijk waren.
+ 
+Resultaten:
+De implementatie van ML.NET in het WMS en de ontwikkeling van de Product Voorraad Predictor hebben significante resultaten opgeleverd, waaronder:
+•	Verbeterde operationele efficiëntie in het magazijn door dynamische locatietoewijzing en orderpickingoptimalisatie.
+•	Optimalisatie van voorraadniveaus en vermindering van overschotten en tekorten dankzij de voorspellende capaciteiten van de Product Voorraad Predictor. (NAAR ARTIKELS VERWIJZEN)
+Kritische Analyse:
+Hoewel de resultaten positief zijn, zijn er enkele kritische overwegingen die moeten worden aangepakt:
+•	Datakwaliteit en -consistentie: Het succes van de ML-modellen is sterk afhankelijk van de kwaliteit en consistentie van de gebruikte gegevens. Het is essentieel om ervoor te zorgen dat de gegevens vrij zijn van ruis en vertekeningen.
+•	Acceptatie en Training: Het succesvol implementeren van ML-functionaliteiten vereist niet alleen technische expertise, maar ook acceptatie en training van het personeel om de nieuwe systemen effectief te gebruiken.
+•	Doorlopende Evaluatie en Verbetering: ML-modellen moeten regelmatig worden geëvalueerd en verbeterd om rekening te houden met veranderende omstandigheden en patronen in de gegevens.
+
+ 
+VERWIJZEN NAAR SHIT DATA = SHIT UITKOMST
+
