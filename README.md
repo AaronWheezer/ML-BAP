@@ -8,7 +8,15 @@ ML.NET biedt snelle en accurate machine learning oplossingen, zoals te zien in d
 
 ![ML.NET Performance](https://dotnet.microsoft.com/blob-assets/images/illustrations/machine-learning/mlnet-high-performance.svg)
 
-Met ML.NET kun je profiteren van de hoge prestaties en nauwkeurigheid van machine learning modellen, wat essentieel is voor een efficiënt WMS.
+Met ML.NET kun je profiteren van de hoge prestaties en nauwkeurigheid van machine learning modellen, wat essentieel is voor een efficiënt WMS. Enkele voordelen van ML.NET zijn:
+
+- **Integratie met .NET Ecosysteem**: ML.NET is volledig geïntegreerd met het .NET ecosysteem, wat betekent dat je naadloos machine learning functionaliteit kunt toevoegen aan bestaande .NET applicaties zonder extra interoperabiliteitslagen.
+- **Bekendheid voor .NET Ontwikkelaars**: Voor ontwikkelaars die al bekend zijn met C# en het .NET framework, biedt ML.NET een gemakkelijke leercurve omdat het dezelfde taal en omgeving gebruikt.
+- **Efficiëntie en Prestaties**: ML.NET is ontworpen voor hoge prestaties, wat resulteert in snelle en efficiënte machine learning modellen die geschikt zijn voor productieomgevingen.
+- **Flexibiliteit en Mogelijkheden**: ML.NET ondersteunt een breed scala aan machine learning taken, zoals regressie, classificatie, clustering en tijdreeksanalyse, wat het veelzijdig maakt voor verschillende toepassingen in een WMS.
+- **Geen Python Vereist**: Hoewel veel machine learning frameworks op Python zijn gebaseerd, stelt ML.NET ontwikkelaars in staat om krachtige machine learning modellen te bouwen zonder Python te hoeven leren of gebruiken. Dit kan de complexiteit en overhead van het leren van een nieuwe programmeertaal verminderen.
+
+Kortom, ML.NET biedt een krachtige en toegankelijke oplossing voor machine learning in een WMS, vooral voor organisaties die al gebruik maken van een .NET backend. Het biedt niet alleen hoge prestaties en nauwkeurigheid, maar ook een naadloze integratie met bestaande .NET applicaties, wat het een aantrekkelijk alternatief maakt voor traditionele Python-gebaseerde machine learning frameworks.
 
 ## Voorbeelden in deze repository
 
