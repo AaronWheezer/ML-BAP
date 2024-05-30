@@ -68,7 +68,7 @@ hoe te Model Builder te installeren:
 Installeer de ML.NET Model Builder: Dit doe je door Visual Studio Installer te openen, je huidige Visual Studio installatie te wijzigen en de ML.NET Model Builder te selecteren.
    ```
 ![model builder
-](image.png)
+](./images/image.png)
 ### 3. Open Model Builder
 
 Klik met de rechtermuisknop op je project in de Solution Explorer, selecteer **Add** > **Machine Learning**. Dit opent de Model Builder.
