@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML.BAP\\ML.BAP.csproj": {}
+    "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML.BAP\\ML.BAP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML.BAP\\ML.BAP.csproj": {
+    "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML.BAP\\ML.BAP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML.BAP\\ML.BAP.csproj",
+        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML.BAP\\ML.BAP.csproj",
         "projectName": "ML.BAP",
-        "projectPath": "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML.BAP\\ML.BAP.csproj",
+        "projectPath": "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML.BAP\\ML.BAP.csproj",
         "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML.BAP\\obj\\",
+        "outputPath": "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML.BAP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ML.TimeSeries": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj": {}
+    "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj": {
+    "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj",
+        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj",
         "projectName": "ML_BAP_API",
-        "projectPath": "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj",
+        "projectPath": "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj",
         "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML_BAP_API\\obj\\",
+        "outputPath": "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML_BAP_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FMso6FuEUozbiQUYGW/NzJ3/paLjdktxSnN481yP+S2/hRuFaspPw9mQeX09Rhqgh9hGVCOEgKsXYaxXKtgUuA==",
+  "dgSpecHash": "lImcbn3f1HrydB/Ar/7WznnEQr+Gk9+VdkIVhS7JksyzpqYCHhkzCMoUTEPWYk08gI8hAtjGM2GPc9JK1Em+Jg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aaron\\Desktop\\thesis\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj",
+  "projectFilePath": "C:\\Users\\aaron\\Desktop\\bap\\ML-BAP\\WMS_location_prediction\\ML.BAP\\ML_BAP_API\\ML_BAP_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aaron\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
