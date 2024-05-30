@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Thesis_onderzoek_basic_WebApp.props" />
-</Project>

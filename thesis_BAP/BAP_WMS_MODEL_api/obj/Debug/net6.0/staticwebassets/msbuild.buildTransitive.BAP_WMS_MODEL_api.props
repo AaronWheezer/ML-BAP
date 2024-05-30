@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\BAP_WMS_MODEL_api.props" />
-</Project>
