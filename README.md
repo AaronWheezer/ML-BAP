@@ -22,7 +22,7 @@ Deze applicatie voorspelt waar orders in de toekomst geplaatst moeten worden, ge
 - storedIn
 - DestinationWarehouse
 
-![Location Prediction Example](images\WMS.png)
+![Location Prediction Example](./images\WMS.png)
 
 Dit is een eenvoudig voorbeeld, maar met meer relevante data over de locatie van een order kunnen nog betere voorspellingen worden gemaakt.
 
@@ -33,7 +33,7 @@ Deze applicatie voorspelt hoeveel orders er op een bepaalde dag in de toekomst z
 - Date
 - Order amount
 
-![Order Prediction Example](images\order_predictie.png)
+![Order Prediction Example](./images\order_predictie.png)
 
 Ook hier kunnen betere voorspellingen worden gemaakt door meer relevante data te gebruiken die van invloed is op het aantal orders op een bepaalde dag.
 
@@ -53,25 +53,25 @@ Installeer de ML.NET Model Builder: Dit doe je door Visual Studio Installer te o
 ### 3. Open Model Builder
 
 Klik met de rechtermuisknop op je project in de Solution Explorer, selecteer **Add** > **Machine Learning**. Dit opent de Model Builder.
-![alt text](images\image-1.png)
-![alt text](images\image-2.png)
+![alt text](./images\image-1.png)
+![alt text](./images\image-2.png)
 ### 4. Kies het scenario
 
 Selecteer het scenario dat het beste past bij je voorspellingstaak. Voor locatie voorspellingen kun je bijvoorbeeld kiezen voor **data classification (Regression)**. Voor order voorspellingen kun je kiezen voor **forecasting**.
-![alt text](images\image-3.png)
+![alt text](./images\image-3.png)
 
 ### 5. Voeg je data toe
 
 Voeg je dataset toe. Dit kan een CSV-bestand zijn dat de historische gegevens bevat die je wilt gebruiken voor het trainen van je model. Zorg ervoor dat je dataset goed is voorbereid en relevante kolommen bevat voor je voorspelling.
-![alt text](images\image-4.png)
+![alt text](./images\image-4.png)
 ### 6. Train het model
 
 Kies hoe lang je Model Builder wilt laten trainen. Hoe langer het traint, hoe beter de prestaties van het model kunnen zijn. Model Builder zal verschillende algoritmen proberen en het beste model selecteren op basis van de prestaties.
-![alt text](images\image-5.png)
+![alt text](./images\image-5.png)
 ### 7. Evalueer het model
 
 Bekijk de evaluatie resultaten. Model Builder zal je laten zien hoe goed je model presteert op basis van verschillende metrics zoals Mean Absolute Error (MAE), Mean Squared Error (MSE), en Root Mean Squared Error (RMSE).
-![alt text](images\image-6.png)
+![alt text](./images\image-6.png)
 ### 8. Gebruik het model
 
 Na het trainen en evalueren, genereert Model Builder code om je model te gebruiken. Deze code kun je toevoegen aan je project om voorspellingen te doen.
